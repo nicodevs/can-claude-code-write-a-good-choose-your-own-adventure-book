@@ -8,7 +8,7 @@ What can we say about AI?
 
 2. Using AI models for speech to text and text to speech helps people with disabilities communicate and access information.
 
-3. Help us break language barriers with live translation or captioning
+3. AI helps us break language barriers with live translation or captioning
 
 4. AI supports scientific research by analyzing massive datasets
 
@@ -22,7 +22,7 @@ At the same time...
 
 2. Or fake news, with fake images and fake videos, with fake comments of fake users upvoted by an army of more fake users
 
-3. With AI an scammer can clone you voice, call your grandma and ask her for money
+3. With AI a scammer can clone your voice, call your grandma and ask her for money
 
 4. Or your government can use AI for face recognition and mass surveillance
 
@@ -34,13 +34,13 @@ At the same time...
 
 AI can be all of that at the same time. Saying “AI is great” or “AI sucks” is a blanket statement.
 
-Is like saying "internet videos are bad" because you see a YouTuber make a silly prank video, when you have Laracast which also counts as "internet videos" and I think we all learned from it.
+It's like saying "internet videos are bad" because you see a YouTuber make a silly prank video, when you have Laracast which also counts as "internet videos" and I think we all learned from it.
 
-In summary, taking about AI is complicated.
+In summary, talking about AI is complicated.
 
 And there's a lot of AI news. The AI news cycle is exhausting. There are many awesome things coming up all the time, don't get me wrong.
 
-But tell me if you find yourself in this situation: a friend send you a link about something AI related and you reply "ohh cool". What you mean with cool? This is awful. So we have this rule: if you share something, add your take.
+But tell me if you find yourself in this situation: a friend sends you a link about something AI related and you reply "ohh cool". What do you mean by cool? This is awful. So we have this rule: if you share something, add your take.
 
 "Disney invest about $1 billion in OpenAI as part of a broader three-year partnership that includes licensing over 200 characters from Disney, Pixar, Marvel, and Star Wars for use in OpenAI’s generative AI tools like Sora"
 
@@ -97,7 +97,7 @@ It's all about patterns and context.
 
 ---
 
-And this is the perfect segway to talk about coding with AI. Because code is just text. A different kind of text, but text nonetheless.
+And this is the perfect segue to talk about coding with AI. Because code is just text. A different kind of text, but text nonetheless.
 
 If we have:
 
@@ -130,6 +130,7 @@ Let me show you:
 
 Here I showcase Claude Code and test:
 
+```md
 [ ] it can take a simple prompt
 [ ] it can edit files
 [ ] it can connect with your editor
@@ -139,7 +140,8 @@ Here I showcase Claude Code and test:
 [ ] show models
 [ ] show usage
 [ ] show context
-    [ ] beware MCPs!
+    [ ] be mindful of MCPs!
+```
 
 So, Claude Code is great. But the question remains:
 
@@ -147,11 +149,11 @@ CAN IT WRITE A BOOK? AND MORE SPECIFICALLY, A CHOOSE YOUR OWN ADVENTURE BOOK?
 
 And this is my favorite part of the talk because we're gonna dive into the world of CHOOSE YOUR OWN ADVENTURE
 
-I love this books!
+I love these books!
 
 _AN AFTERNOON..._
 
-I was bored. I wanted a CYOA book but didn't have any at home, and I got Claude Code. I prompted to create one... and it was terrible.
+I was bored. I wanted a CYOA book but didn't have any at home, and I have Claude Code. I prompted it to create one... and it was terrible.
 
 - Characters that disappear
 - Equipment that you get or lose randomly
@@ -191,15 +193,21 @@ It has a some good endings, finding either the treasure or a map to it. A couple
 
 The treasure are the friends we made along the way!
 
-And even tho at first glance the branching makes sense, if you look closely, you'll notice that many choices lead to the same end:
+BUT WAIT, on page 49 I choose to grab a crowbar and... I get to page 66 and read:
 
-[page 66](./66.md)
+```md
+You grab the crowbar (or try the combination, or grab treasure from the flooding chamber—paths converge here). With determination, you work at the lock or door or situation before you.
+```
+
+Even tho at first glance the branching makes sense, if you look closely, you'll notice that many choices lead to the same end:
+
+[page 66](./number-2/output/66.md)
 
 ```
 You grab the crowbar (or try the combination, or grab treasure from the flooding chamber—paths converge here). With determination, you work at the lock or door or situation before you.
 ```
 
-[page 65](./65.md)
+[page 65](./number-2/output/65.md)
 
 ```
 Beyond the iron door (or in the storage area, or at the cairn—depending on your path), you find yourself in a carefully prepared treasure chamber. The room is dry and has been protected from the elements.
