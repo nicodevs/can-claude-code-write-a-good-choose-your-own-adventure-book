@@ -1,0 +1,181 @@
+{
+  "id": "1",
+  "text": "Your pitch was going perfectly. The investors loved your nanotech cure platform. Then the screaming started. Through the boardroom windows, you see chaos erupting in the streets below. Your phone buzzes—an encrypted message from Sarah, your CTO: 'Z-Virus outbreak. Get to the underground lab. Only chance.' The door bursts open. Your CFO stumbles in, blood on his collar, eyes vacant. He lunges. Behind you, the floor-to-ceiling window. Beside you, heavy chairs.",
+  "choices": {
+    "If you smash through the window with a chair and climb onto the fire escape": {
+      "id": "1-1",
+      "text": "You grab a chair and hurl it through the glass. Wind rushes in as you climb through jagged edges onto the metal fire escape. Below, the streets writhe with infected. You descend quickly, rust flaking under your hands. Two floors down, you spot an open window leading into an office. The fire escape groans ominously. Alternatively, you could continue all the way down to the alley where a delivery van idles, driver's door hanging open.",
+      "choices": {
+        "If you continue down the fire escape to the delivery van in the alley": {
+          "id": "1-1-1",
+          "text": "You race down the shaking fire escape. The van's engine rumbles below. You drop the last six feet, landing hard. The van's empty but running. You jump in and slam the door just as infected round the corner. Keys in the ignition. The street ahead is chaos—abandoned cars, burning wreckage, stumbling figures. Your GPS shows two routes: highway north through downtown, or surface streets east through the warehouse district.",
+          "choices": {
+            "If you take the highway north through downtown toward the safe house": {
+              "id": "1-1-1-1",
+              "text": "You punch the gas and merge onto the highway. Gridlocked cars force you to weave and ram. Infected climb over vehicles toward you. A military checkpoint appears ahead—sandbags, soldiers, spotlights. They're waving cars through but screening everyone. Behind their barricade, you spot the safe house district. The soldier gestures for you to stop. Through your mirror, infected swarm closer. You could comply or floor it through the checkpoint.",
+              "choices": {
+                "If you ram through the military checkpoint at full speed": {
+                  "id": "1-1-1-1-1",
+                  "text": "You slam the accelerator. The van crashes through the barricade. Wood explodes. Soldiers dive aside, shouting. You're through, racing into the safe house district. Bullets ping off your van but you're losing them. Three blocks ahead, Marcus's building stands fortified. You screech to a halt outside. The security door is reinforced steel. You pound on it. A camera swivels toward you. Marcus's voice crackles through the intercom: 'Thought you were dead.' The door buzzes open.",
+                  "choices": {
+                    "If you try to convince Marcus to join you with his military contacts and gear": {
+                      "id": "1-1-1-1-1-1",
+                      "text": "Marcus stands in tactical gear, weapons rack behind him. 'You want to cross the city? Suicide.' You explain about the cure, the lab, Sarah's message. His jaw tightens. 'I've got intel. GeneSys did this—Dr. Vex. She's holed up in their downtown facility with mercenaries.' He grabs an assault rifle. 'You get me to that cure, I'll get you past anything.' He tosses you a pistol and body armor. 'We'll need to hit GeneSys first for their research data.'",
+                      "choices": {
+                        "If you hack GeneSys security system using your CFO's stolen credentials from his phone": {
+                          "id": "1-1-1-1-1-1-1",
+                          "text": "You and Marcus reach GeneSys tower at dusk. The building's dark except for generator-powered emergency lights. You pull out your dead CFO's phone—his credentials are gold here. Marcus covers you while you access the security terminal. The system unlocks. Interior cameras show mercenaries on floors three and twelve. Vex's lab is on twelve. Marcus whispers, 'We go loud or ghost mode?' The stairwell is clear but will take time. The elevator is faster but riskier.",
+                          "choices": {
+                            "If you use the fire suppression system to flood the twelfth floor and create chaos": {
+                              "id": "1-1-1-1-1-1-1-1",
+                              "text": "You trigger the sprinklers on twelve. Alarms wail. Water cascades through corridors. Through the camera feed, you watch mercenaries scatter, confused. You and Marcus take the stairs fast. Twelfth floor is chaos—soaked guards, blaring alarms, Vex's lab door ahead. You slip through the confusion. Inside, terminals glow. File folders labeled 'Z-VIRUS 2.0' and 'BUNKER OMEGA.' You download everything to a drive. Behind you, footsteps approach through the spray. Time to leave. Window or stairwell?",
+                              "choices": {
+                                "If you download all encrypted files from Vex's terminal including bunker coordinates": {
+                                  "id": "1-1-1-1-1-1-1-1-1",
+                                  "text": "You grab the drive and bolt for the stairwell with Marcus. The data is priceless—Vex's bunker location, Z-Virus 2.0 specs, everything. 'My lab's three miles east,' you pant. 'Subway tunnels.' Marcus nods. Outside, you navigate collapsed streets. The subway entrance is cracked open, emergency lights flickering within. Marcus clicks on his flashlight. Distant moans echo from the dark tunnels. You descend. The tracks are littered with debris and bodies. Some are moving. Ahead, the tunnel branches—left toward your lab, right toward an underground station.",
+                                  "choices": {
+                                    "If you navigate through the collapsed subway using Sarah's emergency access maps": {
+                                      "id": "1-1-1-1-1-1-1-1-1-1",
+                                      "text": "You pull up Sarah's encrypted maps on your phone. They show maintenance passages bypassing the main collapse. You and Marcus squeeze through a service door, weapons ready. The passage is tight, dark, stinking. You emerge in an abandoned platform. Your lab's emergency entrance is ahead—a nondescript door with a biometric scanner. Your handprint unlocks it. Inside, the facility hums with backup power. Sarah's nanotech assembler stands ready, pristine and waiting. All her research, everything you need. Marcus checks the perimeter. 'We've got maybe an hour before infected find us.'",
+                                      "choices": {
+                                        "If you activate the nanotech assembler to synthesize the cure properly": {
+                                          "id": "1-1-1-1-1-1-1-1-1-1-1",
+                                          "text": "You input Sarah's protocols. The assembler whirs to life, nanobots dancing in suspension. The cure synthesis begins—forty minutes. Marcus monitors the entrance. The data from Vex's lab reveals everything: her bunker is fifteen miles west, she's planning to release 2.0 in six hours. 'We can't let her do that,' Marcus says. The assembler chimes. Vials of glowing blue cure fill the chamber. You load them into a thermal case. Marcus pulls up a map. 'We hit her bunker now, or distribute this cure first?'",
+                                          "choices": {
+                                            "If you track Vex's signal to her bunker and breach the entrance with Marcus": {
+                                              "id": "1-1-1-1-1-1-1-1-1-1-1-1",
+                                              "text": "You race to Bunker Omega in Marcus's armored truck. The coordinates lead to a fortified entrance in the industrial zone. Mercenaries guard it, but Marcus's military contacts provided flash-bangs. You storm the position. Inside, steel corridors lead deep underground. You find Vex in her control room, surrounded by screens showing the outbreak spreading. She holds a vial of crimson liquid—Z-Virus 2.0. 'Too late,' she smiles. Her finger hovers over a release button connected to ventilation systems worldwide. Marcus aims his rifle. You hold the cure case.",
+                                              "choices": {
+                                                "If you override her system and deploy your cure drones globally while destroying 2.0": {
+                                                  "id": "1-1-1-1-1-1-1-1-1-1-1-1-1",
+                                                  "text": "You lunge for the terminal while Marcus tackles Vex. Your fingers fly across the keyboard, activating your startup's emergency drone network—hundreds of autonomous units stored worldwide. You upload the cure formula. Simultaneously, you trigger a system purge on Vex's release mechanism. The 2.0 vial falls, and you crush it under your boot. Red liquid sizzles harmlessly on concrete. Screens show your drones launching globally, dispersing the cure. Vex screams, but it's over. Within days, the infection recedes. You've saved the world. Your startup becomes humanity's lifeline. Marcus grins. 'Not bad for a CEO.'",
+                                                  "end": "GOOD"
+                                                },
+                                                "If you try to reason with Vex and convince her humanity deserves another chance": {
+                                                  "id": "1-1-1-1-1-1-1-1-1-1-1-1-2",
+                                                  "text": "You lower your weapon. 'Helena, look at the data. Humanity adapts. We survive. Your virus isn't evolution—it's extinction.' She hesitates, finger on the button. For a moment, doubt flickers in her eyes. Then she smiles coldly. 'You always were naive.' She presses the button. Z-Virus 2.0 releases into the atmosphere. You watch helplessly as red mist floods the screens. Marcus shoots her, but it's too late. The world descends into permanent infection. Your cure works on the original strain, but 2.0 is unstoppable. Humanity becomes something else entirely. You failed.",
+                                                  "end": "DEATH"
+                                                }
+                                              }
+                                            },
+                                            "If you distribute the cure to military safe zones first to prove it works": {
+                                              "id": "1-1-1-1-1-1-1-1-1-1-1-2",
+                                              "text": "You contact Colonel Rivera. 'Bring infected to the quarantine zone. I've got the cure.' He's skeptical but desperate. You administer it to twelve infected subjects. Within minutes, the virus dies. They wake up, confused but human. Rivera stares. 'It works.' He mobilizes distribution to every safe zone. But while you save thousands, Vex activates Z-Virus 2.0 unopposed. Her enhanced strain spreads faster than you can cure. You've saved many, but the world still falls. You and your survivors establish a protected enclave. Not the victory you hoped for, but humanity endures in pockets.",
+                                              "end": "NEUTRAL"
+                                            }
+                                          }
+                                        },
+                                        "If you modify the formula to increase production speed despite safety risks": {
+                                          "id": "1-1-1-1-1-1-1-1-1-1-2",
+                                          "text": "You override Sarah's protocols, cranking up the assembler output. More cure, faster. The machine groans, overheating. Warning lights flash. Marcus yells, 'What are you doing?' The assembler explodes in a shower of sparks and chemicals. Nanobots go haywire, eating through the containment field. The lab fills with toxic smoke. You and Marcus flee, but the damage is done. Your only chance at a cure is destroyed. Above ground, the outbreak continues unchecked. You survive but the world doesn't. Vex wins. Humanity transforms into something monstrous. You live with the guilt forever.",
+                                          "end": "BAD"
+                                        }
+                                      }
+                                    },
+                                    "If you take the faster main tunnel despite it being more dangerous": {
+                                      "id": "1-1-1-1-1-1-1-1-1-2",
+                                      "text": "You ignore Sarah's maps and sprint down the main tunnel. Faster this way. You're halfway through when you realize why she marked it dangerous. A massive horde of infected fills the tunnel ahead—hundreds, maybe thousands, attracted by the collapse's noise. They turn toward your flashlight beam. Marcus fires, but there are too many. They swarm over you in a wave of rotting flesh and snapping teeth. You go down fighting, but numbers win. Your last thought is of the cure, so close, locked away in a lab no one will ever reach now.",
+                                      "end": "DEATH"
+                                    }
+                                  }
+                                },
+                                "If you grab the Z-Virus samples to study them alongside the cure data": {
+                                  "id": "1-1-1-1-1-1-1-1-2",
+                                  "text": "You pocket several vials of active Z-Virus from Vex's lab. 'For study,' you tell Marcus. He looks uneasy. Racing through the subway to your lab, you slip. The vials shatter. Liquid splashes across your skin. Within minutes, your veins turn black. Marcus backs away, rifle rising. 'I'm sorry.' You try to speak but the virus is fast, too fast. Your mind dissolves into hunger. Marcus puts you down quickly, mercifully. He continues alone to the lab, but without you, he can't operate the nanotech assembler. The cure dies with you. Hubris killed you and the world.",
+                                  "end": "DEATH"
+                                }
+                              }
+                            },
+                            "If you grab an assault rifle from a weapons locker and fight through the mercenaries directly": {
+                              "id": "1-1-1-1-1-1-1-2",
+                              "text": "You and Marcus grab rifles and storm the twelfth floor. The mercs are ready. Gunfire erupts. You drop two, but they're trained professionals. A flashbang blinds you. You feel bullets punch into your chest. Body armor catches some, but not all. You collapse, blood pooling. Marcus drags you to the stairwell but you're fading. 'The lab... Sarah...' He tries to staunch the bleeding but you've hit a major artery. You die in his arms three floors down. Marcus escapes but without your biometric access, he can never reach the cure lab. Humanity falls.",
+                              "end": "DEATH"
+                            }
+                          }
+                        },
+                        "If you trigger the fire alarm to evacuate the building then slip inside": {
+                          "id": "1-1-1-1-1-1-2",
+                          "text": "You pull the fire alarm. Sirens wail. Mercenaries and staff pour out of GeneSys tower into the infected streets. Screams echo as zombies fall upon them. You and Marcus slip inside during the chaos. The building's nearly empty now. You reach the twelfth floor. Vex's lab is open, abandoned in the panic. Terminals glow with data. You download everything—Z-Virus 2.0 plans, bunker coordinates. But through the window, you see the horde you created now surrounding the building. Thousands of infected, attracted by the alarm. You're trapped on the twelfth floor with no way down.",
+                          "choices": {
+                            "If you use the building's underground parking garage tunnel to escape": {
+                              "id": "1-1-1-1-1-1-2-1",
+                              "text": "Marcus finds a service elevator to the parking garage. You descend into darkness. The garage connects to subway maintenance tunnels—a way out. You navigate by phone light through the underground maze. It works. You emerge near your lab district. But the delay cost you. Your phone buzzes—a message from Colonel Rivera: 'Safe zones failing. Need cure NOW.' You're behind schedule. You reach your lab and synthesize the cure, but Vex activates Z-Virus 2.0 before you can stop her. You cure some, but most of humanity transforms. You establish a small protected zone. Survival, but not victory.",
+                              "end": "NEUTRAL"
+                            },
+                            "If you wait for nightfall and abseil down the building's exterior": {
+                              "id": "1-1-1-1-1-1-2-2",
+                              "text": "You find climbing gear in a supply closet. Night falls. You and Marcus rappel down the building's dark exterior, silent as shadows. The infected below don't notice. You reach the ground and vanish into the darkness. But spending hours waiting on the twelfth floor had consequences. Your phone shows messages from Colonel Rivera: 'Vex released something new. It's spreading fast. Too late?' Z-Virus 2.0 is already active. You synthesize your cure and it works on the original strain, but 2.0 is different. Unstoppable. You save thousands in protected enclaves, but the world changes forever. Partial victory, hollow consolation.",
+                              "end": "NEUTRAL"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "If you knock Marcus unconscious and take his weapons and intel for yourself": {
+                      "id": "1-1-1-1-1-2",
+                      "text": "You can't risk him slowing you down. While Marcus turns to his weapons rack, you grab a heavy tactical lamp and swing hard. He drops. You feel his pulse—alive, just unconscious. You take his rifle, ammo, and a folder marked 'OUTBREAK INTEL.' It mentions GeneSys and Dr. Vex, but you're alone now. Hours later, you reach GeneSys, but without Marcus's military expertise, you trigger alarms. Mercenaries surround you. You fight hard but they're professionals. You're overwhelmed, restrained, and dragged before Dr. Vex. She smiles coldly. 'Perfect timing. I need test subjects for 2.0.' She injects you. The world goes red.",
+                      "end": "DEATH"
+                    }
+                  }
+                },
+                "If you stop and comply with the military screening process": {
+                  "id": "1-1-1-1-2",
+                  "text": "You brake and roll down your window. The soldier approaches, rifle ready. 'Out of the vehicle. Screening mandatory.' You explain about the cure, the lab, the urgency. He's not convinced. 'Everyone's got a story, buddy.' Behind you, infected crash into abandoned cars, getting closer. The soldier makes you stand in line with other refugees. Ten minutes pass. Fifteen. The horde arrives. Infected overwhelm the checkpoint. Soldiers open fire but there are too many. You're torn apart in the chaos, meters from safety, killed by bureaucracy and bad timing. The cure dies with you.",
+                  "end": "DEATH"
+                }
+              }
+            },
+            "If you take surface streets east through the warehouse district": {
+              "id": "1-1-1-2",
+              "text": "You veer east into narrow streets between warehouses. Less traffic, fewer infected. You make good time. A checkpoint appears ahead—not military, but civilian survivors. They've blockaded the street with trucks. A woman with a shotgun steps out. 'Stop there! We're not letting anyone infected through.' You explain about the cure. She's skeptical. 'Everyone says they're immune, special, whatever. Show me a bite and you're not getting through.' You're clean, but they demand supplies. You've got nothing. She aims the shotgun. 'Turn around or we shoot.' Behind you, infected shuffle into view.",
+              "choices": {
+                "If you offer them a share of the cure in exchange for safe passage": {
+                  "id": "1-1-1-2-1",
+                  "text": "You make a deal. 'Let me through. When I synthesize the cure, you get first doses.' The woman considers. 'How do we know you're good for it?' You give her your word and your contact info. She lowers the shotgun. 'You better keep that promise.' They move the trucks. You drive through. You reach your lab district, but without Marcus's intel, you don't know about Vex or Z-Virus 2.0. You create the cure and keep your promise, distributing it to the woman's group and beyond. But Vex releases 2.0 unopposed. Your cure handles the original strain but not her enhanced version. Bittersweet victory.",
+                  "end": "NEUTRAL"
+                },
+                "If you try to ram through their barricade at full speed": {
+                  "id": "1-1-1-2-2",
+                  "text": "You floor it. The van accelerates toward the trucks. The survivors open fire. Bullets shred your windshield. One catches your shoulder, another your chest. You lose control. The van flips, crashes, erupts in flames. Through fading vision, you see the survivors approach cautiously. The woman with the shotgun shakes her head. 'Idiot.' You die in the wreckage, the cure's location dying with you. In your pocket, your phone buzzes with Sarah's final message: 'Did you make it?' No one will ever answer.",
+                  "end": "DEATH"
+                }
+              }
+            }
+          }
+        },
+        "If you swing into the open office window two floors down": {
+          "id": "1-1-2",
+          "text": "You leap from the fire escape, crashing through the open window. You roll, glass crunching under you. The office is abandoned—desks overturned, papers scattered. Movement in the hallway. Three infected office workers shuffle toward you, drawn by the noise. An emergency exit sign glows red at the corridor's end. On the desk beside you, someone left a fire extinguisher. You grab it. The infected lunge. You swing hard, metal connecting with skulls. They drop. You run for the exit, but the door is locked—keycard access only. Footsteps echo above and below. More coming.",
+          "choices": {
+            "If you search the office for a keycard on a desk or body": {
+              "id": "1-1-2-1",
+              "text": "You frantically search desks. Bodies lie everywhere. Finally, you find a keycard on a woman slumped over her keyboard. You swipe it at the exit. Green light. The door opens to a stairwell. You descend fast, twelve floors. The ground level is a lobby filled with infected. Too many to fight. You spot a parking garage entrance. You sprint through, infected pursuing. In the garage, you find an abandoned motorcycle, keys in the ignition. You gun it toward the exit ramp. Freedom. But you're alone, no allies, no intel about the outbreak's origin. Just you and the road to your lab.",
+              "choices": {
+                "If you head straight to your underground lab through the subway tunnels": {
+                  "id": "1-1-2-1-1",
+                  "text": "You ditch the motorcycle and descend into the subway. Dark, reeking, dangerous. You navigate by phone light. The tunnels are full of infected, but you're fast, quiet. Hours later, you reach your lab's emergency entrance. Your handprint unlocks it. Inside, Sarah's nanotech assembler awaits. You begin synthesizing the cure. It takes forty minutes. Success—glowing blue vials. But you have no distribution network, no allies, no intel about Vex or Z-Virus 2.0. You cure yourself and a small group of survivors, but without stopping Vex, the enhanced virus spreads. You survive in a small protected zone. Alive, but the world fell.",
+                  "end": "NEUTRAL"
+                },
+                "If you stop at a military safe zone to gather allies and intel first": {
+                  "id": "1-1-2-1-2",
+                  "text": "You ride to the nearest military safe zone. Colonel Rivera commands it—fortified, organized, desperate. You offer your cure platform in exchange for support. He's skeptical but assigns you two soldiers. Together, you reach your lab and synthesize the cure. Rivera distributes it to the safe zones. Thousands are saved. But without intel on Vex, you don't know about Z-Virus 2.0 until it's released. The enhanced strain breaks through your cure. You've saved some, but the world still falls. Rivera evacuates you to a remote island with other survivors. You live, but humanity is fractured, forever changed.",
+                  "end": "NEUTRAL"
+                }
+              }
+            },
+            "If you kick down the door using the fire extinguisher as a battering ram": {
+              "id": "1-1-2-2",
+              "text": "You slam the fire extinguisher into the door again and again. The lock cracks but doesn't break. The noise attracts more infected. They pour into the office from all directions. You swing the extinguisher wildly but there are too many. Teeth sink into your shoulder. You scream. More pile on. You go down under a mass of bodies. The extinguisher rolls away, useless. Your last coherent thought is regret—you were so close to the lab, the cure, everything. The infection takes you. You become one of them, wandering the dead building forever.",
+              "end": "DEATH"
+            }
+          }
+        }
+      }
+    },
+    "If you barricade the boardroom door and try to wait for military rescue": {
+      "id": "1-2",
+      "text": "You shove a heavy conference table against the door. The infected CFO claws at it, snarling. You call 911—busy signal. You try the military emergency line—automated message about citywide evacuation. Hours pass. The infected lose interest and wander away. You're alone in the boardroom, surrounded by luxury and silence. Through the windows, you watch the city burn. No rescue comes. [BREAK] Three days later, you're starving. The water cooler is empty. Your phone battery died yesterday. The door is still barricaded, but you hear nothing outside. When you finally move the table and venture out, the building is a tomb. Infected are everywhere. Weak and stumbling, you don't make it past the elevators.",
+      "end": "DEATH"
+    }
+  }
+}

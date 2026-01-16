@@ -1,0 +1,11 @@
+Title: DEADZONE CEO
+Description: You're the CEO of NanoGenix, a biotech startup with revolutionary cure technology, presenting to investors when the zombie apocalypse hits downtown. The outbreak was engineered by Dr. Helena Vex, your rival at GeneSys, who created the Z-Virus as a twisted population control experiment. Now she's planning to release Z-Virus 2.0, an unstoppable version that will make the infection permanent. Your company's underground lab holds the only equipment capable of synthesizing a cure. You must fight through hordes of infected, navigate collapsing civilization, confront Vex's mercenaries, and reach your lab before it's too late. The fate of humanity rests on your startup technology.
+Characters:
+  - Name: Marcus Kane
+    Description: Your head of security and former special forces operator. Tough, resourceful, with extensive military contacts. He carries tactical gear and has intel on the outbreak's origin. Loyal but pragmatic about survival.
+  - Name: Dr. Helena Vex
+    Description: The main antagonist. Brilliant but unhinged geneticist and former chief scientist at GeneSys. She wears a pristine lab coat even during the apocalypse. Cold, calculating, and convinced the zombie outbreak is humanity's next evolutionary step.
+  - Name: Sarah Chen
+    Description: Your brilliant CTO and co-founder. She sent you the encrypted message about the lab before going dark. Genius engineer who designed the nanotech cure platform. Her fate is unknown.
+  - Name: Colonel Rivera
+    Description: Military commander running evacuation operations. Desperate and overwhelmed, he controls critical resources like helicopters and safe zones but doesn't trust corporate promises about cures.
