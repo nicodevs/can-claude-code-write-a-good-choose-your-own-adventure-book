@@ -1,0 +1,19 @@
+Title: YOU ARE A WIZARD
+Description: You're a third-year student at Thornwood Academy of Magic when the unthinkable happens—Malachar the Dread, an ancient shadow dragon imprisoned centuries ago, attacks the school and kidnaps Archmage Aldric, your beloved teacher. To save him, you must venture into darkness itself, gathering forbidden components for a black magic imprisonment spell. Your quest takes you through petrified gardens haunted by a medusa, ancient crypts where vampires lurk, and abandoned foundries guarded by iron golems. But the true cost of your journey isn't measured in danger—it's measured in the pieces of your soul you'll sacrifice to wield dark magic. Will you save your teacher before Malachar drains his magic completely, or will your reckless bravery lead to your doom?
+Characters:
+  - Name: Archmage Aldric
+    Description: Your beloved teacher and one of the most powerful wizards at Thornwood Academy. Wise, kind, and incredibly skilled in defensive magic. He has silver hair, warm brown eyes, and always wears deep blue robes with silver stars. When Malachar attacks, he's the only one brave enough to confront the dragon.
+  - Name: Malachar the Dread
+    Description: An ancient shadow dragon who was imprisoned centuries ago by the Archmages. Massive, with scales as black as midnight, eyes that glow like burning coals, and breath that manifests as darkness and flame. He seeks to drain the magic from powerful wizards to become unstoppable and break the seals holding other shadow dragons captive.
+  - Name: Professor Nightshade
+    Description: A mysterious teacher at Thornwood Academy who specializes in defensive magic but secretly studies dark arts. She has long black hair, pale skin, and always wears gray robes. She's the one who introduces you to the Codex Umbra and the black magic imprisonment spell, warning that it will cost a piece of your soul.
+  - Name: Professor Corvus
+    Description: The academy's expert on ancient dragon lore. Silver-haired, green-robed, with eyes that gleam with intensity. He appears eager to help you save Aldric by gathering three magical components. But he's actually a traitor working for Malachar, manipulating you into collecting components for the dragon's dark ascension ritual.
+  - Name: Headmaster Thornwick
+    Description: The elderly headmaster of Thornwood Academy. He has a long silver beard, stern eyes, and wears traditional wizard robes. He's cautious and believes in following rules and protocols, even when time is of the essence. His bureaucratic approach often conflicts with your urgency to save Aldric.
+  - Name: Luca
+    Description: Your best friend at Thornwood Academy, a fellow third-year student. He's well-meaning but cautious, always following the rules. When you trust him with your plan to use black magic to save Aldric, his fear and sense of duty lead him to betray your confidence and report you to the Headmaster.
+  - Name: The Medusa
+    Description: A creature dwelling in the Petrified Gardens, with serpents for hair and the power to turn anyone who meets her gaze into stone. Her skin is pale as marble, her eyes are a deadly green, and she's fiercely protective of her garden of stone statues—all former victims.
+  - Name: The Vampire Lord
+    Description: An ancient vampire who has lived for five centuries in the Crypts of Ashenvale. Pale-skinned with sharp features, glowing red eyes, and dressed in black. He sits on a stone throne surrounded by coffins, and his supernatural speed makes him a deadly opponent.

@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Edit",
+      "Write",
+      "Skill(generate-outline)",
+      "Bash(npm install)",
+      "Bash(node play.js:*)",
+      "Bash(python3:*)",
+      "Bash(ls:*)",
+      "Bash(grep:*)",
+      "Bash(brew list:*)",
+      "Bash(brew uninstall:*)"
+    ]
+  }
+}
