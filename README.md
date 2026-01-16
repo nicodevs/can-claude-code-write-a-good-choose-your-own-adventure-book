@@ -37,7 +37,7 @@ And there's a lot of AI news. The AI news cycle is exhausting. There are many aw
 
 But tell me if you find yourself in this situation: a friend sends you a link about something AI related and you reply "ohh cool". What do you mean by cool? This is awful. So we have this rule: if you share something, add your take.
 
-"Disney invest about $1 billion in OpenAI as part of a broader three-year partnership that includes licensing over 200 characters from Disney, Pixar, Marvel, and Star Wars for use in OpenAI’s generative AI tools like Sora"
+"Disney invested about $1 billion in OpenAI as part of a broader three-year partnership that includes licensing over 200 characters from Disney, Pixar, Marvel, and Star Wars for use in OpenAI's generative AI tools like Sora"
 
 ---
 
@@ -165,7 +165,7 @@ I was bored. I wanted a CYOA book but didn't have any at home, and I have Claude
 
 It was the worst! But at the same time it was kinda cool.
 
-That marked the start of my quest: making Claude Code write an actual good book.
+That marked the start of my quest: making Claude Code write an actually good book.
 
 ## ATTEMPT NUMBER 1: VIBE YOUR OWN ADVENTURE
 
@@ -198,7 +198,7 @@ BUT WAIT, on page 49 I choose to grab a crowbar and... I get to page 66 and read
 You grab the crowbar (or try the combination, or grab treasure from the flooding chamber—paths converge here). With determination, you work at the lock or door or situation before you.
 ```
 
-Even tho at first glance the branching makes sense, if you look closely, you'll notice that many choices lead to the same end:
+Even though at first glance the branching makes sense, if you look closely, you'll notice that many choices lead to the same end:
 
 [page 66](./number-2/output/66.md)
 
@@ -237,6 +237,33 @@ What we need is an OUTLINE.
 
 A CYOA book is essentially a branching structure, and when I think of it I think of JSON. What if we have an outline like this...?
 
+```json
+{
+  "text": "You wake up in an alien planet. An alien approaches.",
+  "choices": {
+    "If you attempt to talk to the alien": {
+      "text": "The alien speaks english! He tells you he needs your help to save the galaxy",
+      "choices": {
+        "If you ask the alien for more info": {...},
+        "If you run away and look for an escape": {...}
+      }
+    },
+    "If you run": {
+      "text": "You fell into a pit.",
+      "end": "DEATH"
+    }
+  }
+}
+```
+
+We can make use of SKILLS and AGENTS to create our book.
+
+- Main agent writes the outline using the `generate-outline` skill
+- Once the JSON and YAML files are created, we run `write-adventure` skill with input and output directories
+- The skill knows that it must spawn a subagent `adventure-page-writer` per node
+
+I created the outline for:
+
 **LOST IN THE ISLAND OF TIME**
 
 ```
@@ -248,6 +275,8 @@ FUN FACTOR: 8/10
 
 # ATTEMPT NUMBER 3: CLAUDE YOUR OWN ADVENTURE 2
 
+Claude Code created the outline for:
+
 **YOU ARE A WIZARD**
 
 ```
@@ -256,3 +285,5 @@ PROSE: 6/10
 CHOICES: 8/10
 FUN FACTOR: 7/10
 ```
+
+... with a couple of interactions to fix a branch and a few endings.
