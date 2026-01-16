@@ -1,17 +1,17 @@
+![cover](/cover.png)
+
+# CAN CLAUDE CODE WRITE A (GOOD) CHOOSE YOUR OWN ADVENTURE BOOK?
+
+## Intro
+
 What can we say about AI?
 
 ---
 
-1. AI can predict the 3D structure of proteins, a breakthrough recognized with a Nobel Prize, helping us understand how diseases develop.¹
-
-¹ Nobel Prize in Chemistry 2024. Awarded to Demis Hassabis and John Jumper (Google DeepMind) for developing AlphaFold, an AI system for protein structure prediction, and to David Baker (University of Washington) for computational protein design.
-
+1. AI can predict the 3D structure of proteins, a breakthrough recognized with a Nobel Prize, helping us understand how diseases develop (Nobel Prize in Chemistry 2024).
 2. Using AI models for speech to text and text to speech helps people with disabilities communicate and access information.
-
 3. AI helps us break language barriers with live translation or captioning
-
 4. AI supports scientific research by analyzing massive datasets
-
 5. AI helps detect diseases earlier by analyzing medical images like X-rays, MRIs, and CT scans with high accuracy
 
 ---
@@ -19,15 +19,10 @@ What can we say about AI?
 At the same time...
 
 1. You can use AI to generate slop
-
 2. Or fake news, with fake images and fake videos, with fake comments of fake users upvoted by an army of more fake users
-
 3. With AI a scammer can clone your voice, call your grandma and ask her for money
-
 4. Or your government can use AI for face recognition and mass surveillance
-
 5. Or a friend of yours can use ChatGPT as a therapist
-
 6. Or a mega corporation can use AI to generate an awful Christmas commercial
 
 ---
@@ -48,19 +43,16 @@ But tell me if you find yourself in this situation: a friend sends you a link ab
 
 There are many controversial, unnerving questions regarding AI:
 
-Will AI take all our jobs?
+- Will AI take all our jobs?
+- Is the AI market a bubble?
+- Will we get general superintelligence?
+- Will it rise like Skynet to destroy us all?
 
-Is the AI market a bubble?
-
-Will we get general superintelligence?
-
-Will it rise like Skynet to destroy all mankind?
-
----
+# OUR GOAL FOR TODAY
 
 And today we will answer none of them. Instead, we will focus on a much more important question:
 
-CAN CLAUDE CODE WRITE A (GOOD) CHOOSE YOUR OWN ADVENTURE BOOK?
+**CAN CLAUDE CODE WRITE A (GOOD) CHOOSE YOUR OWN ADVENTURE BOOK?**
 
 That is all we care about today. Can we say, “I want a choose your own adventure book about Zombies at Laracon,” and get one of these?
 
@@ -79,11 +71,14 @@ It worked like magic. But once you understand how LLMs work, it seems less magic
 You see, generative AI is like a slot machine. But a rigged slot machine.
 
 It predicts what the next word will be.
+
+```
 Bistolfi is the greatest…
 
 Potato? 1%
 Warrior? 14%
 Hero? 90%
+```
 
 What gives these words their weights? The training data.
 
@@ -95,7 +90,9 @@ ChatGPT does not know about my friend’s character.
 
 It's all about patterns and context.
 
----
+**THIS IS AN OVERSIMPLIFICATION,** but helps us understand.
+
+# AI CODING
 
 And this is the perfect segue to talk about coding with AI. Because code is just text. A different kind of text, but text nonetheless.
 
@@ -131,21 +128,23 @@ Let me show you:
 Here I showcase Claude Code and test:
 
 ```md
-[ ] it can take a simple prompt
-[ ] it can edit files
-[ ] it can connect with your editor
-[ ] it can execute cli commands
-[ ] it can add a feature
-[ ] it can solve a repo issue
-[ ] show models
-[ ] show usage
-[ ] show context
-    [ ] be mindful of MCPs!
+[x] it can take a simple prompt
+[x] it can edit files
+[x] it can connect with your editor
+[x] it can execute cli commands
+[x] it can add a feature
+[x] it can solve a repo issue
+[x] show models
+[x] show usage
+[x] show context
+    [x] be mindful of MCPs!
 ```
 
 So, Claude Code is great. But the question remains:
 
-CAN IT WRITE A BOOK? AND MORE SPECIFICALLY, A CHOOSE YOUR OWN ADVENTURE BOOK?
+_CAN IT WRITE A BOOK? AND MORE SPECIFICALLY, A CHOOSE YOUR OWN ADVENTURE BOOK?_
+
+# CHOOSE YOUR OWN ADVENTURE BOOKS
 
 And this is my favorite part of the talk because we're gonna dive into the world of CHOOSE YOUR OWN ADVENTURE
 
@@ -168,24 +167,24 @@ It was the worst! But at the same time it was kinda cool.
 
 That marked the start of my quest: making Claude Code write an actual good book.
 
-# ATTEMPT NUMBER 1: VIBE YOUR OWN ADVENTURE
+## ATTEMPT NUMBER 1: VIBE YOUR OWN ADVENTURE
 
 Model: Sonnet
 
-(screenshots)
+**OSIRIS STATION**
 
-OSIRIS STATION
-
+```
 STRUCTURE: 1/10
 PROSE: 1/10
 CHOICES: 1/10
 FUN FACTOR: 10/10
+```
 
 # ATTEMPT NUMBER 2: PLAN YOUR OWN ADVENTURE
 
 Model: Opus
 
-I have to admit, Opus does a pretty good job in terms of structure.
+I have to admit, Opus does a pretty good job in terms of structure... or so I thought.
 
 It has a some good endings, finding either the treasure or a map to it. A couple of neutral endings, you find something else. And on page 70 it even has the courage of saying:
 
@@ -213,18 +212,20 @@ You grab the crowbar (or try the combination, or grab treasure from the flooding
 Beyond the iron door (or in the storage area, or at the cairn—depending on your path), you find yourself in a carefully prepared treasure chamber. The room is dry and has been protected from the elements.
 ```
 
-YOU CHEATER!!
+_YOU CHEATER!!_
 
 And what is lacking is DEATH. There isn't a single DEATH ending. And CYOA is famous for having DEATH endings!
 
 Another big problem: if we ask for changes, we can fill up the context. Content quality will degrade.
 
-TREASURE HUNT
+**TREASURE HUNT**
 
+```
 STRUCTURE: 8/10 (no, 4/10)!
 PROSE: 4/10
 CHOICES: 8/10
 FUN FACTOR: 3/10
+```
 
 # ATTEMPT NUMBER 3: CLAUDE YOUR OWN ADVENTURE
 
@@ -236,16 +237,22 @@ What we need is an OUTLINE.
 
 A CYOA book is essentially a branching structure, and when I think of it I think of JSON. What if we have an outline like this...?
 
+**LOST IN THE ISLAND OF TIME**
+
+```
 STRUCTURE: 8/10
 PROSE: 7/10
 CHOICES: 9/10
 FUN FACTOR: 8/10
+```
 
 # ATTEMPT NUMBER 3: CLAUDE YOUR OWN ADVENTURE 2
 
-YOU ARE A WIZARD
+**YOU ARE A WIZARD**
 
+```
 STRUCTURE: 8/10
 PROSE: 6/10
 CHOICES: 8/10
 FUN FACTOR: 7/10
+```
