@@ -180,7 +180,7 @@ CHOICES: 1/10
 FUN FACTOR: 10/10
 ```
 
-## ATTEMPT NUMBER 2: PLAN YOUR OWN ADVENTURE
+## ATTEMPT NUMBER 2: PROMPT YOUR OWN ADVENTURE
 
 Model: Opus
 
@@ -228,6 +228,8 @@ FUN FACTOR: 3/10
 ```
 
 ## ATTEMPT NUMBER 3: CLAUDE YOUR OWN ADVENTURE
+
+Model: Opus
 
 We need something better. This doesn't qualify as a good CYOA book.
 
