@@ -13,7 +13,9 @@
       "Bash(brew uninstall:*)",
       "Bash(node:*)",
       "Bash(node .claude/skills/write-adventure/generate-mermaid-chart.js:*)",
-      "Bash(perl:*)"
+      "Bash(perl:*)",
+      "Bash(find:*)",
+      "Bash(done)"
     ]
   }
 }
