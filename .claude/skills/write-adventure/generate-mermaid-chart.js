@@ -15,6 +15,16 @@
 import { readFile, writeFile, stat } from 'node:fs/promises';
 import { join, resolve, dirname, basename } from 'node:path';
 
+const parseTitle = async (summaryPath) => {
+  try {
+    const content = await readFile(summaryPath, 'utf-8');
+    const match = content.match(/^Title:\s*(.+)$/m);
+    return match?.[1]?.trim() ?? null;
+  } catch {
+    return null;
+  }
+};
+
 const ENDING_EMOJIS = {
   DEATH: '💀',
   GOOD: '🏆',
@@ -209,6 +219,7 @@ const main = async () => {
   const outputDir = resolve(outputDirArg);
 
   const outlinePath = join(inputDir, 'outline.json');
+  const summaryPath = join(inputDir, 'summary.yaml');
   const mappingPath = join(outputDir, 'mapping.tsv');
 
   try {
@@ -261,7 +272,7 @@ const main = async () => {
   );
 
   // Generate and write
-  const bookName = basename(dirname(outputDir));
+  const bookName = await parseTitle(summaryPath) ?? basename(dirname(outputDir));
   const mermaid = generateMermaid(bookName, pages, edges, endings, endingTypes, transitions);
 
   const outputPath = join(outputDir, 'structure.mmd');
