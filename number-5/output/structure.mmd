@@ -9,29 +9,29 @@ flowchart TD
     5((5))
     6((6))
     7((7))
-    8((8))
+    8[8]:::transition
     9((9))
     10((10))
     11((11))
-    12[12 - END]:::ending
+    12[12 - END 💀]:::death
     13((13))
-    14[14 - END]:::ending
-    15[15 - END]:::ending
-    16[16 - END]:::ending
-    17[17 - END]:::ending
-    18[18 - END]:::ending
-    19[19 - END]:::ending
+    14[14 - END 😐]:::neutral
+    15[15 - END 😐]:::neutral
+    16[16 - END 🏆]:::good
+    17[17 - END 💀]:::death
+    18[18 - END 😐]:::neutral
+    19[19 - END 😐]:::neutral
     20((20))
-    21[21 - END]:::ending
-    22[22 - END]:::ending
+    21[21 - END 💀]:::death
+    22[22 - END 😐]:::neutral
     23[23 - END]:::ending
-    24[24 - END]:::ending
-    25[25 - END]:::ending
-    26[26 - END]:::ending
-    27[27 - END]:::ending
-    28[28 - END]:::ending
-    29[29 - END]:::ending
-    30[30 - END]:::ending
+    24[24 - END 💀]:::death
+    25[25 - END 💀]:::death
+    26[26 - END 💀]:::death
+    27[27 - END 😐]:::neutral
+    28[28 - END 😰]:::bad
+    29[29 - END 💀]:::death
+    30[30 - END 💀]:::death
     31((31))
     32((32))
     33((33))
@@ -71,8 +71,13 @@ flowchart TD
     34 --> 30
 
     classDef ending fill:#ff6b6b,stroke:#c92a2a,color:#fff
+    classDef death fill:#495057,stroke:#212529,color:#fff
+    classDef good fill:#51cf66,stroke:#2f9e44,color:#fff
+    classDef bad fill:#ff8787,stroke:#fa5252,color:#fff
+    classDef neutral fill:#74c0fc,stroke:#339af0,color:#fff
     classDef orphan fill:#ffd43b,stroke:#fab005,color:#000
     classDef convergent fill:#9775fa,stroke:#7048e8,color:#fff
     classDef convergent_end fill:#e599f7,stroke:#be4bdb,color:#000
+    classDef transition fill:#dee2e6,stroke:#adb5bd,color:#000
 
     %% 34 pages, 33 edges, 17 endings, 0 orphaned, 0 convergent

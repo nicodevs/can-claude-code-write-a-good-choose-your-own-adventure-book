@@ -119,9 +119,9 @@ Move to the next node in depth-first order and repeat.
 
 ### 3. Completion
 
-When all nodes have corresponding files in the output directory, the book is complete. Report the total number of nodes processed (some nodes may produce multiple page files due to breaks).
+When all nodes have corresponding files in the output directory, the pages are written. Report the total number of nodes processed (some nodes may produce multiple page files due to breaks).
 
-**IMPORTANT:** You MUST now proceed to step 4 to assign page numbers. Do not stop here.
+**IMPORTANT:** You MUST now proceed to steps 4 and 5 to finalize the book. Do not stop here.
 
 ### 4. Assign page numbers (REQUIRED)
 
@@ -183,7 +183,49 @@ This script:
 After running the script, verify that:
 - Files have numeric names (`1.md`, `23.md`, etc.) instead of ID names
 - Links in the files point to numeric pages (e.g., `[page 23](./23.md)`)
-- All 63 files still exist in the output directory
+- All files still exist in the output directory
+
+**IMPORTANT:** Proceed to step 5 to generate the structure diagram.
+
+### 5. Generate structure diagram (REQUIRED)
+
+Run the structure generator script:
+
+```bash
+python3 .claude/skills/write-adventure/generate-mermaid-chart.py <input-dir> <output-dir>
+```
+
+This generates `<output-dir>/structure.mmd`, a Mermaid flowchart showing the book's branching structure with:
+- Choice pages as circles: `((N))`
+- Transition pages (from `[BREAK]`): `[N]:::transition`
+- Endings with type emojis: 💀 DEATH, 🏆 GOOD, 😐 NEUTRAL, 😰 BAD
+- Orphan detection (unreachable pages)
+- Convergent node detection (3+ incoming edges)
+
+Example output:
+
+```mermaid
+---
+title: book-name
+---
+flowchart TD
+    1((1))
+    2[2]:::transition
+    3((3))
+    4[4 - END 💀]:::death
+    5[5 - END 🏆]:::good
+    1 --> 2
+    2 --> 3
+    3 --> 4
+    3 --> 5
+
+    classDef death fill:#495057,stroke:#212529,color:#fff
+    classDef good fill:#51cf66,stroke:#2f9e44,color:#fff
+    classDef transition fill:#dee2e6,stroke:#adb5bd,color:#000
+    %% ...more styles...
+
+    %% 5 pages, 4 edges, 2 endings, 0 orphaned, 0 convergent
+```
 
 ## Traversal Algorithm
 
@@ -204,3 +246,10 @@ This yields: `1`, `1-1`, `1-1-1`, `1-1-2`, `1-2`, `1-2-1`, `1-2-2`, `1-3`, ...
 - **Resume support**: Because completion is tracked by file existence, you can stop and resume at any time
 - **Parallel writes**: Sibling branches could theoretically be written in parallel, but depth-first ordering ensures narrative consistency
 - **Error handling**: If a subagent fails, the file won't exist, so retrying will attempt that page again
+
+## Final Output
+
+When complete, the output directory should contain:
+- Numbered page files: `1.md`, `2.md`, `3.md`, ...
+- `mapping.tsv`: Maps original node IDs to page numbers
+- `structure.mmd`: Mermaid flowchart of the book structure
