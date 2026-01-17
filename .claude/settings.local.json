@@ -10,7 +10,10 @@
       "Bash(ls:*)",
       "Bash(grep:*)",
       "Bash(brew list:*)",
-      "Bash(brew uninstall:*)"
+      "Bash(brew uninstall:*)",
+      "Bash(node:*)",
+      "Bash(node .claude/skills/write-adventure/generate-mermaid-chart.js:*)",
+      "Bash(perl:*)"
     ]
   }
 }

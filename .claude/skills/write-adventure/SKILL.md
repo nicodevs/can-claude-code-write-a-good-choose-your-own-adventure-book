@@ -171,7 +171,7 @@ Example mapping:
 
 You MUST run this command to complete the book:
 ```bash
-python3 .claude/skills/write-adventure/rename-pages.py <output-dir> <output-dir>/mapping.tsv
+node .claude/skills/write-adventure/rename-pages.js <output-dir> <output-dir>/mapping.tsv
 ```
 
 This script:
@@ -192,7 +192,7 @@ After running the script, verify that:
 Run the structure generator script:
 
 ```bash
-python3 .claude/skills/write-adventure/generate-mermaid-chart.py <input-dir> <output-dir>
+node .claude/skills/write-adventure/generate-mermaid-chart.js <input-dir> <output-dir>
 ```
 
 This generates `<output-dir>/structure.mmd`, a Mermaid flowchart showing the book's branching structure with:
