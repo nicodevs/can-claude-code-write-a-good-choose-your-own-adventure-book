@@ -15,7 +15,13 @@
       "Bash(node .claude/skills/write-adventure/generate-mermaid-chart.js:*)",
       "Bash(perl:*)",
       "Bash(find:*)",
-      "Bash(done)"
+      "Bash(done)",
+      "Bash(for i in 1 2 3 4 5)",
+      "Bash(do)",
+      "Bash(if [ -f \"number-$i/output/mapping.tsv\" ])",
+      "Bash(then)",
+      "Bash(fi)",
+      "Bash(for i in 3 4 5)"
     ]
   }
 }

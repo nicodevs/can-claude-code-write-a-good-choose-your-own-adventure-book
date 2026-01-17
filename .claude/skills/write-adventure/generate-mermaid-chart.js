@@ -185,7 +185,7 @@ const generateMermaid = (bookName, pages, edges, endings, endingTypes, transitio
   lines.push('    classDef ending fill:#ff6b6b,stroke:#c92a2a,color:#fff');
   lines.push('    classDef death fill:#495057,stroke:#212529,color:#fff');
   lines.push('    classDef good fill:#51cf66,stroke:#2f9e44,color:#fff');
-  lines.push('    classDef bad fill:#ff8787,stroke:#fa5252,color:#fff');
+  lines.push('    classDef bad fill:#ff0000,stroke:#cc0000,color:#fff');
   lines.push('    classDef neutral fill:#74c0fc,stroke:#339af0,color:#fff');
   lines.push('    classDef orphan fill:#ffd43b,stroke:#fab005,color:#000');
   lines.push('    classDef convergent fill:#9775fa,stroke:#7048e8,color:#fff');
@@ -231,9 +231,24 @@ const main = async () => {
   const endings = new Set([...pages].filter((p) => !sources.has(p)));
 
   // Map node IDs to page numbers for ending types
+  // The ending type in the outline is on the base node (e.g., 1-2)
+  // but the actual ending page might be a letter-suffix (e.g., 1-2-B)
+  // Always find the LAST page in the chain (highest letter suffix, or base if none)
   const endingTypes = new Map();
   for (const [nodeId, etype] of outlineEndings) {
-    if (mapping.has(nodeId)) {
+    // Look for letter-suffix versions first (highest to lowest)
+    const suffixes = ['E', 'D', 'C', 'B', 'A'];
+    let found = false;
+    for (const suffix of suffixes) {
+      const suffixedId = `${nodeId}-${suffix}`;
+      if (mapping.has(suffixedId)) {
+        endingTypes.set(mapping.get(suffixedId), etype);
+        found = true;
+        break;
+      }
+    }
+    // Fall back to base node if no suffixes
+    if (!found && mapping.has(nodeId)) {
       endingTypes.set(mapping.get(nodeId), etype);
     }
   }
